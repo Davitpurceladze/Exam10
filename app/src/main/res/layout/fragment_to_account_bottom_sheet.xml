@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    android:orientation="vertical"
+    tools:context=".presentation.screen.toAccountBottomSheet.ToAccountBottomSheetFragment">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvByAccountNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/account_style"
+        android:gravity="center"
+        android:text="Transfer By Account Number"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvByPersonalNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/account_style"
+        android:gravity="center"
+        android:text="Transfer By Personal Number"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvByPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/account_style"
+        android:gravity="center"
+        android:text="Transfer By Phone Number"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etByAccountNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/account_style"
+        android:hint="Account Number"
+        android:paddingStart="10dp"
+        android:textColorHint="@color/white"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etByPersonalNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/account_style"
+        android:hint="Personal Number"
+        android:paddingStart="10dp"
+        android:textColorHint="@color/white"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etByPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/account_style"
+        android:hint="Phone Number"
+        android:paddingStart="10dp"
+        android:textColorHint="@color/white"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:background="@color/green"
+        android:id="@+id/btnSubmit"
+        android:visibility="gone"
+        android:layout_marginBottom="30dp"
+        android:text="Submit"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:layout_height="60dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
